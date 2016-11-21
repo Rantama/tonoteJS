@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8"></meta>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>ToDo Note</title>
+
+    <!--Acme font  -->
+
+    <link rel="stylesheet" type="text/css" href="app/css/normalize.css"></link>
+    <link href="https://fonts.googleapis.com/css?family=Acme" rel="stylesheet">
+    <link rel="stylesheet" type="text/css" href="app/css/main.css"></link>
+
+    <script src="library/require.js"></script>
+
+
+</head>
+
+<body>
+    <form >
+
+        <div id="addItem">
+            <button id="addButton">
+              Add Notes
+          </button><br/>
+        </div>
+        <div id="todos"><br/><br/>
+            <strong>Title of Item</strong><br/>
+            <input type="text" id="title"  placeholder="Title item"><br/>
+            <strong>Description</strong><br/>
+            <textarea type= "text" id="description"  placeholder="Item Description"></textarea>
+            <button id="save" value='Submit'>Save</button>
+
+
+        </div>
+
+    </form>
+    <section id="container">
+    </section>
+<script type="text/javascript" src="app/mainv2.js"></script>
+
+
+</body>
+
+</html>

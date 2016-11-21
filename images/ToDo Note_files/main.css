@@ -1,0 +1,80 @@
+@charset "UTF-8";
+
+body {
+width: 100%;
+  background-image: url("/images/sand.jpeg");
+  background-size: cover;
+}
+
+}
+body, input, button {
+  font-family: 'Acme', sans-serif;
+}
+
+
+/************* HEADER STYLE *************/
+
+
+.saveNotehere{
+  width: 300px;
+  height:auto;
+  margin: 5px;
+  padding: 15px;
+  background-color: silver;
+  /*background-image: url("/images/note2.jpg");*/
+  background-size: cover;
+  color: grey;
+  font-size: 15px;
+  border-top-left-radius: 10px;
+  border-bottom-right-radius: 10px;
+
+}
+
+.editButton {
+  width: 1em;
+  height: 1em;
+  float: right;
+  background-color: transparent;
+}
+
+.removeButton {
+  width: 1em;
+  height: 1em;
+  float: right;
+}
+#addingItem {
+  background-color: red;
+  border: 1px;
+
+}
+#title_val {
+  text-indent: 10px;
+}
+
+#container {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+#itemForm {
+  position: absolute;
+  width:
+  padding-top: 5em;
+
+}
+
+#title_val {
+  border-radius: 1em;
+  width: 16em;
+  height: 2em;
+  margin-bottom: 1em;
+  text-indent: 1em;
+}
+
+#description {
+  border-radius: 1em;
+  width: 16em;
+  height: 10em;
+  resize: none;
+  text-indent: 1em;
+}
